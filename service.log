@@ -1,0 +1,5 @@
+2025-04-10 01:37:52,356 ERROR    blogpost_views.py              create                         51   {'author': [ErrorDetail(string='“15a6ecc9-1b55-42e1-911e-e07a408c1d5” is not a valid UUID.', code='invalid')], 'title': [ErrorDetail(string='This field is required.', code='required')]}
+2025-04-10 01:38:09,410 ERROR    blogpost_views.py              create                         51   {'title': [ErrorDetail(string='This field is required.', code='required')]}
+2025-04-10 12:01:42,673 ERROR    login_viewset.py               sign_up                        147  Sign-up error: 'Settings' object has no attribute 'SECRET_KEY_FOR_PASSWORD'
+2025-04-10 12:03:31,447 ERROR    login_viewset.py               sign_up                        147  Sign-up error: Status matching query does not exist.
+2025-04-10 12:12:08,402 ERROR    blogpost_views.py              create                         52   {'author': [ErrorDetail(string='Invalid Author provided.', code='does_not_exist')]}
